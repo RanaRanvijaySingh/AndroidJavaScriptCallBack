@@ -13,12 +13,12 @@ ________________________________________________________________________________
 Step 1: Create html file with a simple java script.<br/>
 	  The html file has to be placed in the assets folder.<br/>
 
-<script type="text/javascript">
+`<script type="text/javascript">
         function displayMessage(){
         	document.getElementById('test1').innerHTML = 'This is from java script.';
         	Android.returnResult();
         }
-</script>
+</script>`
 
 
 	<h1 id="test1">Hello World</h1>
